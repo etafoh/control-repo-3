@@ -5,7 +5,7 @@
       uid: '1010'
       sshkeys:
         - 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDaL6aMegZwFBUR62WouVZfz336OdDswvgp7qn0khg7pwWj+UX6rPa2hibxfyx3GiwOqkjAg/KsPvqU2VP2yBB2pYWNu2g7d+8YnCMhnqozvNTn6HFts80wJBic71L1OEPupFXW1NGSoBs19Wy9L2aXADFzNS56WoyaJPL/V00pMHwrSuyetod7nkeweRNNc0hTPKaNbwtLfIips/xLYZ2p8fa/UZdJQUySZNCFpN+G86G0e8F/FvL+HP9TeDb16CIrssmHQJ/JJT5pnmu27n75/VkO/RPjsp8ubZrpfyLsRfl22hDuBZYZYUxCfXkK719Fd8Q0okS4tQOUvqiKyzDSXaMxT7z8YZwjeXf/6pDIvnxOuJTb2s2SJBRuaBfClnnyDn5oxjGMQBVnsfHMw14leXXE76hbmpSayPAjQqNNT7r5HUg2Dko2FrTFKRzpuQ5zJSZutE9rPVFF1qD8oklpSQbclmEZbaJa+A6q/Pg+diMYqlflNXhbVyRwvO3dKvcCyLKrnCEn145Gtaql6Rr+L9LZcHe5zFqPTKoMqQBxJ+YKgAVPRIqnCeUZv1Mcz6yIPUrQMPx9vsM6mlJYIhb9YR3br+2kkvkQ8/iNoQy9ja1/4oqHX31mDuCm9DCaHXX/HFxb9faU5MCDeYevQ2wTKUXCQ3Nf5Rbsw8kTQPJs/Q== etafoh@gmail.com'
-      allow_users:
+  allow_users:
     - 'elvis'
     - 'ubuntu'
   sudoers:
