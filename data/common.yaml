@@ -1,22 +1,15 @@
 ---
   users:
-    'john':
-      comment: 'John Arundel'
+    'elvis':
+      comment: 'Elvis Tafoh'
       uid: '1010'
       sshkeys:
-        - 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEA3ATqENg+GWACa2BzeqTdGnJhNoBer8x6pfWkzNzeM8Zx7/2Tf2pl7kHdbsiTXEUawqzXZQtZzt/j3Oya+PZjcRpWNRzprSmd2UxEEPTqDw9LqY5S2B8og/NyzWaIYPsKoatcgC7VgYHplcTbzEhGu8BsoEVBGYu3IRy5RkAcZik= john@susie'
-    'bridget':
-      comment: 'Bridget X. Zample'
-      uid: '1011'
-      sshkeys:
-        - 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCiTvHgzkf9TGBIpnIUBRbsWaRNBqzrLY/OoQpzqprGFLuTzzb8MaGI9Q6GPIhil5HyXE7PWPyuwcBA4mJhIHBXWqQC5o59cdtrkgJwAybSK7z5oVt67B0qieDG/cbasxr52nMAJC3dBEF4W1s69VSq5+wLFD01iW= bridget'
-  allow_users:
-    - 'john'
-    - 'bridget'
+        - 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDaL6aMegZwFBUR62WouVZfz336OdDswvgp7qn0khg7pwWj+UX6rPa2hibxfyx3GiwOqkjAg/KsPvqU2VP2yBB2pYWNu2g7d+8YnCMhnqozvNTn6HFts80wJBic71L1OEPupFXW1NGSoBs19Wy9L2aXADFzNS56WoyaJPL/V00pMHwrSuyetod7nkeweRNNc0hTPKaNbwtLfIips/xLYZ2p8fa/UZdJQUySZNCFpN+G86G0e8F/FvL+HP9TeDb16CIrssmHQJ/JJT5pnmu27n75/VkO/RPjsp8ubZrpfyLsRfl22hDuBZYZYUxCfXkK719Fd8Q0okS4tQOUvqiKyzDSXaMxT7z8YZwjeXf/6pDIvnxOuJTb2s2SJBRuaBfClnnyDn5oxjGMQBVnsfHMw14leXXE76hbmpSayPAjQqNNT7r5HUg2Dko2FrTFKRzpuQ5zJSZutE9rPVFF1qD8oklpSQbclmEZbaJa+A6q/Pg+diMYqlflNXhbVyRwvO3dKvcCyLKrnCEn145Gtaql6Rr+L9LZcHe5zFqPTKoMqQBxJ+YKgAVPRIqnCeUZv1Mcz6yIPUrQMPx9vsM6mlJYIhb9YR3br+2kkvkQ8/iNoQy9ja1/4oqHX31mDuCm9DCaHXX/HFxb9faU5MCDeYevQ2wTKUXCQ3Nf5Rbsw8kTQPJs/Q== etafoh@gmail.com'
+      allow_users:
+    - 'elvis'
     - 'ubuntu'
   sudoers:
-    - 'john'
-    - 'bridget'
+    - 'elvis'
     - 'ubuntu'
   classes:
     - profile::ntp
